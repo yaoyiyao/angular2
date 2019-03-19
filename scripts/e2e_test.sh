@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-curl http://npmjs.org/install.sh | sh
+sudo  apt-get install nodejs
+sudo  apt-get install npm
 echo "e2e test start."
 npm run e2e
 echo "e2e test end."
